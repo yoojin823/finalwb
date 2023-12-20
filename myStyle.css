@@ -692,3 +692,82 @@ input[type="checkbox"]:checked ~.toggle-icon >.bar-bottom {
     letter-spacing: -0.946px;
     margin: 0px;
 }
+
+
+@media all and (max-width: 480px) {
+    .section{
+        width: 100%;
+        height:885px;
+        clear: both;
+        background-color: #000;
+    }
+    .section1{
+        width: 100%;
+        height: 845px;
+    }
+    .section2, .section4, .section5{
+        width: 100%;
+        height: 800px;
+    }
+    .section3{
+        width: 100%;
+        height: 780px;
+    }
+    .section6{
+        width: 100%;
+        height: 900px;
+    }
+    .header{
+        width: 100%;
+        height: 270px;
+        z-index: 99;
+        background-color: #000;
+        position: sticky;
+    }
+    .header2{
+        width: 100%;
+        position: fixed;
+        z-index: 99;
+    }
+    .sidebar, .toggle-sidebar{
+        position: fixed;
+        z-index: 999;
+    }
+    #headerText {
+        width: 100%;
+        left: 5rem;
+        position: fixed;
+    }
+    .text-box1-4{
+        position: fixed;
+        left: 8rem;
+    }
+    .hr1-2{
+        position: fixed;
+        left: 11.2rem;
+    }
+    .headerText2{
+        position: fixed;
+        left: 15rem;
+    }
+    .icon {
+        position: fixed;
+        left: 23rem;
+    }
+    .v-line {
+        left: 10vmax;
+        display: none;
+    }
+    .text-box1, .text-box2, .text-box3, .text-box4, .text-box5, .text-box6, .text-box7, .text-box8, .text-box9, .text-box10, .text-box11, .text-box12 {
+        left: 14rem;
+        width: 280px;
+        height: auto;
+    }
+    .xb, .tt, .nf, .yomi, .diyou, .hell {
+        padding: 10rem;
+        left: 14rem;
+        width: 290px;
+        height: auto;
+    }
+    
+}
