@@ -18,20 +18,13 @@
     z-index: 99;
 }
 
-@media (min-width: 600px) {
-    .header {
-        width: 300x;
-        height: 250px;
-    }
-}
-
 .sidebar {
     background-color: #000;
-    opacity: 90%;
+    opacity: 85%;
     width: 430px;
     height: 100%;
     position: fixed;
-    z-index: 2000;
+    z-index: 9999;
     transform: translateX(-430px);
     transition: transform 430ms ease-in-out;
 }
@@ -205,17 +198,10 @@ input[type="checkbox"]:checked ~.toggle-icon >.bar-bottom {
     z-index: 99;
 }
 
-@media (max-width: 600px) {
-    .header2 {
-        width: 250x;
-        height: 900px;
-    }
-}
-
 #headerText {
     position: fixed;
     top: 12rem;
-    left: 45vmin;
+    left: 8rem;
     background-color: none;
     border: 0;
     object-fit: contain;
@@ -235,22 +221,14 @@ input[type="checkbox"]:checked ~.toggle-icon >.bar-bottom {
 
 .v-line {
     border-left : medium solid #fff;
-    height: 100px;
-    top: 18rem;
-    left: 70vmin;
-    min-width: 40vmin;
+    height: 150px;
+    top: 16rem;
+    left: 20rem;
+    float: right;
     position: fixed;
     z-index: 999;
 }
 
-@media (max-width: 600px) {
-    .header2 {
-        font-size: 40px;
-    }
-    .v-line {
-        right: 20%;
-    }
-}
 .text-box1-4 {
     position: fixed;
     top: 60px;
@@ -293,6 +271,7 @@ input[type="checkbox"]:checked ~.toggle-icon >.bar-bottom {
     color: #fff;
     z-index: 1000;
 }
+
 .hr1-2 {
     position: fixed;
     top: 70px;
@@ -319,9 +298,8 @@ input[type="checkbox"]:checked ~.toggle-icon >.bar-bottom {
 }
 
 
-
 .section {
-    width: 1920px;
+    width: 100%;
     height: 800px;
     clear: both;
     background-color: #000;
@@ -337,8 +315,7 @@ input[type="checkbox"]:checked ~.toggle-icon >.bar-bottom {
     left: 56%;
     transform: translate(-50%, -50%);
     padding: 5rem 1rem;
-    max-width: 500px;
-    min-width: 400px;
+    width: 500px;
     height: auto;
 }
 
@@ -361,8 +338,7 @@ input[type="checkbox"]:checked ~.toggle-icon >.bar-bottom {
     transform: translate(-50%, -50%);
     padding: 5rem 1rem;
     width: 500px;
-    max-width: 500px;
-    min-width: 400px;
+    width: 500px;
     height: auto;
 }
 
@@ -372,8 +348,7 @@ input[type="checkbox"]:checked ~.toggle-icon >.bar-bottom {
     left: 56%;
     transform: translate(-50%, -50%);
     padding: 5rem 1rem;
-    max-width: 500px;
-    min-width: 400px;
+    width: 500px;
     height: auto;
 }
 
@@ -399,8 +374,7 @@ input[type="checkbox"]:checked ~.toggle-icon >.bar-bottom {
     left: 56%;
     transform: translate(-50%, -50%);
     padding: 5rem 1rem;
-    max-width: 500px;
-    min-width: 400px;
+    width: 500px;
     height: auto;
 }
 
@@ -419,11 +393,10 @@ input[type="checkbox"]:checked ~.toggle-icon >.bar-bottom {
 .tt {
     position: absolute;
     top: 100rem;
-    left: 53%;
+    left: 56%;
     transform: translate(-50%, -50%);
     padding: 5rem 1rem;
-    max-width: 500px;
-    min-width: 400px;
+    width: 500px;
     height: auto;
 }
 
@@ -433,8 +406,7 @@ input[type="checkbox"]:checked ~.toggle-icon >.bar-bottom {
     left: 56%;
     transform: translate(-50%, -50%);
     padding: 5rem 1rem;
-    max-width: 500px;
-    min-width: 400px;
+    width: 500px;
     height: auto;
 }
 
@@ -461,8 +433,7 @@ input[type="checkbox"]:checked ~.toggle-icon >.bar-bottom {
     left: 56%;
     transform: translate(-50%, -50%);
     padding: 5rem 1rem;
-    max-width: 500px;
-    min-width: 400px;
+    width: 500px;
     height: auto;
 }
 
@@ -481,11 +452,10 @@ input[type="checkbox"]:checked ~.toggle-icon >.bar-bottom {
 .nf {
     position: absolute;
     top: 147rem;
-    left: 53%;
+    left: 56%;
     transform: translate(-50%, -50%);
     padding: 5rem 1rem;
-    max-width: 500px;
-    min-width: 400px;
+    width: 500px;
     height: auto;
 }
 
@@ -495,8 +465,7 @@ input[type="checkbox"]:checked ~.toggle-icon >.bar-bottom {
     left: 56%;
     transform: translate(-50%, -50%);
     padding: 5rem 1rem;
-    max-width: 500px;
-    min-width: 400px;
+    width: 500px;
     height: auto;
 }
 
@@ -522,8 +491,7 @@ input[type="checkbox"]:checked ~.toggle-icon >.bar-bottom {
     left: 56%;
     transform: translate(-50%, -50%);
     padding: 5rem 1rem;
-    max-width: 500px;
-    min-width: 400px;
+    width: 500px;
     height: auto;
 }
 
@@ -555,8 +523,7 @@ input[type="checkbox"]:checked ~.toggle-icon >.bar-bottom {
     left: 56%;
     transform: translate(-50%, -50%);
     padding: 5rem 1rem;
-    max-width: 500px;
-    min-width: 400px;
+    width: 500px;
     height: auto;
 }
 
@@ -582,8 +549,7 @@ input[type="checkbox"]:checked ~.toggle-icon >.bar-bottom {
     left: 56%;
     transform: translate(-50%, -50%);
     padding: 5rem 1rem;
-    max-width: 500px;
-    min-width: 400px;
+    width: 500px;
     height: auto;
 }
 
@@ -615,8 +581,7 @@ input[type="checkbox"]:checked ~.toggle-icon >.bar-bottom {
     left: 56%;
     transform: translate(-50%, -50%);
     padding: 5rem 1rem;
-    max-width: 500px;
-    min-width: 400px;
+    width: 500px;
     height: auto;
 }
 
@@ -643,8 +608,7 @@ input[type="checkbox"]:checked ~.toggle-icon >.bar-bottom {
     left: 56%;
     transform: translate(-50%, -50%);
     padding: 5rem 1rem;
-    max-width: 500px;
-    min-width: 400px;
+    width: 500px;
     height: auto;
 }
 
@@ -676,8 +640,7 @@ input[type="checkbox"]:checked ~.toggle-icon >.bar-bottom {
     left: 56%;
     transform: translate(-50%, -50%);
     padding: 5rem 1rem;
-    max-width: 500px;
-    min-width: 400px;
+    width: 500px;
     height: auto;
 }
 
@@ -692,7 +655,6 @@ input[type="checkbox"]:checked ~.toggle-icon >.bar-bottom {
     letter-spacing: -0.946px;
     margin: 0px;
 }
-
 
 @media all and (max-width: 480px) {
     .section{
@@ -719,13 +681,14 @@ input[type="checkbox"]:checked ~.toggle-icon >.bar-bottom {
     }
     .header{
         width: 100%;
-        height: 270px;
+        height: 280px;
         z-index: 99;
         background-color: #000;
         position: sticky;
     }
     .header2{
         width: 100%;
+        height: 5rem;
         position: fixed;
         z-index: 99;
     }
