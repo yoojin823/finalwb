@@ -339,7 +339,6 @@ input[type="checkbox"]:checked ~.toggle-icon >.bar-bottom {
     transform: translate(-50%, -50%);
     padding: 5rem 1rem;
     width: 500px;
-    width: 500px;
     height: auto;
 }
 
@@ -682,10 +681,10 @@ input[type="checkbox"]:checked ~.toggle-icon >.bar-bottom {
     }
     .header{
         width: 100%;
-        height: 100px;
-        z-index: 99;
+        height: 250px;
+        z-index: 80;
         background-color: #000;
-        position: sticky;
+        position: fixed;
     }
     .header2{
         width: 100%;
