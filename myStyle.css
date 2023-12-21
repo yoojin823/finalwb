@@ -680,14 +680,14 @@ input[type="checkbox"]:checked ~.toggle-icon >.bar-bottom {
         height: 1200px;
     }
     .header{
-        width: 100%;
+        width: 400px;
         height: 250px;
         z-index: 80;
         background-color: #000;
         position: fixed;
     }
     .header2{
-        width: 100%;
+        width: 400px;
         height: 5rem;
         position: fixed;
         z-index: 90;
